@@ -15,8 +15,26 @@
     <link rel="stylesheet" href="cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.css" />
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
-
-<body style="display: flex; justify-content: center; align-items: center; width: 100%; min-height: 100vh; margin: 0 auto;">
+<style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 100vh;
+      margin: 0 auto;
+    }
+  
+    @media (max-width: 768px) {
+      body {
+        display: block;
+        justify-content: unset;
+        align-items: unset;
+        min-height: auto;
+      }
+    }
+  </style>
+<body>
     <div class="d-flex gap-6">
         <div class="side-menu">
             <div class="sidebar-btn close-btn cursor-pointer d-block d-lg-none">
@@ -121,14 +139,6 @@
                     </svg>
                 </a>
                 <div class="d-flex gap-3 align-items-center">
-                    <a href="checkout.html" class="position-relative">
-                        <div class="side-icon bg1-color">
-                            <i class="ph ph-shopping-cart n11-color"></i>
-                        </div>
-                        <div class="cart-counter-header">
-                            <span class="n1-color">02</span>
-                        </div>
-                    </a>
                     <button class="side-icon bg1-color mood_toggle">
                         <i class="mood_icon ph-fill ph-moon fs-six n11-color"></i>
                     </button>
@@ -180,7 +190,7 @@
                 <div class="pb-60">
                     <div data-aos="zoom-in" class="page-heading">
                         <h3 class="page-title fs-onefw-semibold n5-color mb-2 mb-md-3 text-center">
-                            Case Study: Agency Website Development for Dev X
+                            Yelaoshr® HQ
                         </h3>
                     </div>
                 </div>
@@ -189,182 +199,128 @@
                         <div data-aos="fade-left" class="col-12 col-xl-3">
                             <div class="d-flex flex-column gap-5 position-sticky top-5 brn4 p-3 rounded">
                                 <div>
-                                    <span class="n4-color fs-eight fw-medium d-block">Client:</span>
-                                    <span class="n5-color fs-six fw-medium">Dev X</span>
-                                </div>
-                                <div>
                                     <span class="n4-color fs-eight fw-medium d-block">Services</span>
                                     <span class="n5-color fs-six fw-medium">Web Development</span>
                                 </div>
                                 <div>
                                     <span class="n4-color fs-eight fw-medium d-block">Technologies</span>
-                                    <span class="n5-color fs-six fw-medium">React JS</span>
-                                </div>
-                                <div>
-                                    <span class="n4-color fs-eight fw-medium d-block">Website</span>
-                                    <a href="javascript:void(0)" class="n5-color fs-six fw-medium d-flex align-items-center gap-2">Live preview <i class="ph-bold ph-arrow-right"></i></a>
+                                    <span class="n5-color fs-six fw-medium">PHP, HTML, CSS, Bootstrap, JavaScript, MySQL</span>
                                 </div>
                             </div>
                         </div>
                         <div data-aos="fade-right" class="col-12 col-xl-9">
                             <div class="project-details-content d-flex flex-column gap-8 gap-md-15">
-                                <div class="overflow-hidden">
-                                    <img src="assets/images/project1.png" alt="project" class="w-100 portfolio-details-img" />
-                                </div>
                                 <div data-aos="fade-up">
+                                    <h3 class="fs-five n5-color fw-semibold mt-5 mb-2 mb-md-4">
+                                        QUALITY MANAGEMENT SYSTEM (QMS OFFLINE) MOBILE APP
+                                    </h3>
                                     <p class="text-seven n4-color">
-                                        Short description of the client and project requirements.
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                        Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
-                                        amet, consectetuer adipiscing elit. Aenean commodo ligula
-                                        eget dolor.
+                                        <b>Project Description:</b> <br>
+                                        QMS offline is an application that can record the progress of students in class. 
+                                        When there is no network, you can store the data in local, and when there is a 
+                                        network, you can use API sync to upload the data to the database.
                                     </p>
+
                                     <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
-                                        Project Requirements
+                                        QUALITY MANAGEMENT SYSTEM (QMS ONLINE) MOBILE APP
                                     </h3>
                                     <ul>
                                         <li class="n4-color fs-seven mb-2 mb-md-3">
-                                            Requirement lorem ipsum dolor sit amet, consectetuer
-                                            adipiscing elit.
+                                            <b>Link:</b> <a href="https://play.google.com/store/apps/details?id=com.app.yelaoshr5&hl=en-MY" target="_blank">https://play.google.com/store/apps/details?id=com.app.yelaoshr5&hl=en-MY</a>
                                         </li>
                                         <li class="n4-color fs-seven mb-2 mb-md-3">
-                                            Requirement donec pede justo, fringilla vel, aliquet
-                                            nec.
+                                            <b>Screenshot:</b> <a href="https://www.figma.com/design/2qCyj7cf71JcU41JdOiYOU/Yelaoshr?node-id=1-8" target="_blank">https://www.figma.com/design/2qCyj7cf71JcU41JdOiYOU/Yelaoshr?node-id=1-8</a>
+                                        </li>
+                                    </ul>
+                                    <p class="text-seven n4-color">
+                                        <b>Project Description:</b> <br>
+                                        QMS Online is a network-dependent application for tracking student progress in classes. Users 
+                                        can monitor current and previous progress, access class recommendations, and evaluate 
+                                        student abilities. The app features a support page for user feedback and notifications. Teacher 
+                                        profiles include student lists, progress reports, and daily summaries.
+                                    </p>
+
+                                    <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
+                                        LEARNING MANAGEMENT SYSTEM (LMS)
+                                    </h3>
+                                    <ul>
+                                        <li class="n4-color fs-seven mb-2 mb-md-3">
+                                            <b>Link:</b> <a href="https://play.google.com/store/apps/details?id=com.app.yelaoshr6&hl=en-MY" target="_blank">https://play.google.com/store/apps/details?id=com.app.yelaoshr6&hl=en-MY</a>
                                         </li>
                                         <li class="n4-color fs-seven mb-2 mb-md-3">
-                                            Requirement phasellus ullamcorper ipsum rutrum nunc.
+                                            <b>Screenshot:</b> <a href="https://www.figma.com/design/2qCyj7cf71JcU41JdOiYOU/Yelaoshr?node-id=0-1" target="_blank">https://www.figma.com/design/2qCyj7cf71JcU41JdOiYOU/Yelaoshr?node-id=0-1</a>
+                                        </li>
+                                    </ul>
+                                    <p class="text-seven n4-color">
+                                        <b>Project Description:</b> <br>
+                                        LMS is an inspection and testing system. When a freshman is about to go to class, 
+                                        we will give him a test. The test result will tell us the student’s level so that we know 
+                                        what class he should take next. The exam aspect is that after he completes the QMS
+                                        level, he will take an exam to see if he is not at that level.
+                                    </p>
+
+                                    <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
+                                        QUALITY MANAGEMENT SYSTEM (QMS) ADMIN WEB / HQ WEB
+                                    </h3>
+                                    <ul>
+                                        <li class="n4-color fs-seven mb-2 mb-md-3">
+                                            <b>Link:</b> <a href="https://teacheryap-qms.net/admin/" target="_blank">https://teacheryap-qms.net/admin/</a>
+                                        </li>
+                                        <li class="n4-color fs-seven mb-2 mb-md-3">
+                                            <b>Screenshot:</b> <a href="https://www.figma.com/design/2qCyj7cf71JcU41JdOiYOU/Yelaoshr?node-id=1-33" target="_blank">https://www.figma.com/design/2qCyj7cf71JcU41JdOiYOU/Yelaoshr?node-id=1-33</a>
+                                        </li>
+                                    </ul>
+                                    <p class="text-seven n4-color">
+                                        <b>Project Description:</b> <br>
+                                        QMS admin allows the center supervisor to see the teacher report, student report, 
+                                        daily report, monthly report, kpi report, etc. of the center. It can easily check the 
+                                        data of teachers and students. Most of what it does is reports. qms hq is the 
+                                        headquarters The personnel can see the data of all centers, including the above, 
+                                        the overall interface is the same.
+                                    </p>
+
+                                    <h3 class="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
+                                        REGISTRATION FORM
+                                    </h3>
+                                    <ul>
+                                        <li class="n4-color fs-seven mb-2 mb-md-3">
+                                            <b>Link:</b><a href="https://teacheryap.net/online-application/" target="_blank">https://teacheryap.net/online-application/</a>
+                                        </li>
+                                        
+                                        <li class="n4-color fs-seven mb-2 mb-md-3">
+                                            <b>Screenshot:</b> <a href="https://www.figma.com/design/2qCyj7cf71JcU41JdOiYOU/Yelaoshr?node-id=1-52" target="_blank">https://www.figma.com/design/2qCyj7cf71JcU41JdOiYOU/Yelaoshr?node-id=1-52</a>
+                                        </li>
+                                    </ul>
+                                    <p class="text-seven n4-color">
+                                        <b>Project Description:</b> <br>
+                                        When the parents decide to sign up, the center will ask the parents to scan a qr code. After 
+                                        scanning, the parents will go to the registration form to register. After that, the 
+                                        child’s name will appear in the qms lms, and then the class will be available. 
+                                        After the registration, the parents will also Receive email.
+                                    </p>
+                                </div>
+                                <div data-aos="fade-up">
+                                    <h2 class="fs-two fw-semibold n5-color mb-2 mb-md-4">
+                                        All Project Responsibility:
+                                    </h2>
+                                    <ul>
+                                        <li class="n4-color fs-seven mb-2 mb-md-3">
+                                            Gather requirement from the management, and develop into the website.
+                                        </li>
+                                        <li class="n4-color fs-seven mb-2 mb-md-3">
+                                            Enhance frontend and backend code.
+                                        </li>
+                                        <li class="n4-color fs-seven mb-2 mb-md-3">
+                                            Continuous improvement proactively seek opportunities for enhancement based on 
+                                        </li>
+                                        <li class="n4-color fs-seven mb-2 mb-md-3">
+                                            System testing and quality assurance conduct thorough testing and implement quality assurance processes to maintain application performance.
+                                        </li>
+                                        <li class="n4-color fs-seven mb-2 mb-md-3">
+                                            Optimize performance identify and implement performance enhancements to improve application efficiency.
                                         </li>
                                     </ul>
                                 </div>
-                                <div data-aos="fade-up">
-                                    <h2 class="fs-one fw-semibold n5-color mb-2 mb-md-4">
-                                        Project Overview
-                                    </h2>
-                                    <p class="text-seven n4-color">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                                        natoque penatibus et magnis dis parturient montes,
-                                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                        pellentesque eu, pretium quis, sem. Nulla consequat massa
-                                        quis enim. Donec pede justo, fringilla vel, aliquet nec,
-                                        vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                                        a, venenatis vitae, justo. Nullam dictum felis eu pede
-                                        mollis pretium. Integer tincidunt. Cras dapibus.
-                                    </p>
-                                </div>
-                                <div data-aos="fade-up">
-                                    <h2 class="fs-two fw-semibold n5-color mb-2 mb-md-4">
-                                        The Challenge
-                                    </h2>
-                                    <p class="text-seven n4-color">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                                        natoque penatibus et magnis dis parturient montes,
-                                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                        pellentesque eu, pretium quis, sem. Nulla consequat massa
-                                        quis enim. Donec pede justo, fringilla vel, aliquet nec,
-                                        vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                                        a, venenatis vitae, justo. Nullam dictum felis eu pede
-                                        mollis pretium. Integer tincidunt. Cras dapibus.
-                                    </p>
-                                </div>
-                                <div data-aos="fade-up">
-                                    <h2 class="fs-two fw-semibold n5-color mb-2 mb-md-4">
-                                        The Approach & Solution
-                                    </h2>
-                                    <p class="text-seven n4-color mb-5 mb-md-10">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                                        natoque penatibus et magnis dis parturient montes,
-                                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                        pellentesque eu, pretium quis, sem. Nulla consequat massa
-                                        quis enim. Donec pede justo, fringilla vel, aliquet nec,
-                                        vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                                        a, venenatis vitae, justo. Nullam dictum felis eu pede
-                                        mollis pretium. Integer tincidunt. Cras dapibus.
-                                    </p>
-                                    <div class="row g-3 g-md-6">
-                                        <div class="col-sm-6 overflow-hidden">
-                                            <img src="assets/images/project2.png" alt="project" class="w-100 object-fit-cover portfolio-details-img" />
-                                        </div>
-                                        <div class="col-sm-6 overflow-hidden">
-                                            <img src="assets/images/project3.png" alt="project" class="w-100 object-fit-cover portfolio-details-img" />
-                                        </div>
-                                    </div>
-                                    <p class="text-seven n4-color mt-5 mt-md-10">
-                                        Short description of the client and project requirements.
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                        Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
-                                        amet, consectetuer adipiscing elit. Aenean commodo ligula
-                                        eget dolor.
-                                    </p>
-                                </div>
-                                <div data-aos="fade-up">
-                                    <h2 class="fs-two fw-semibold n5-color mb-2 mb-md-4">
-                                        The Results
-                                    </h2>
-                                    <div class="row g-3 g-md-5">
-                                        <div class="col-sm-6 col-xl-4 col-xxl-3">
-                                            <div class="bgn2-color brn4 p-3 p-md-5">
-                                                <span class="p1-color fs-six fw-medium mb-2 d-block">Efficiency</span>
-                                                <div class="d-flex align-items-end gap-1 mb-2 mb-md-3">
-                                                    <h4 class="fs-three n5-color fw-semibold">20%</h4>
-                                                    <span class="fs-six n4-color fw-medium">up</span>
-                                                </div>
-                                                <p class="fs-eight n4-color">
-                                                    Metric description lorem ipsum dolor sit amet.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-xl-4 col-xxl-3">
-                                            <div class="bgn2-color brn4 p-3 p-md-5">
-                                                <span class="p1-color fs-six fw-medium mb-2 d-block">Customer Happy</span>
-                                                <div class="d-flex align-items-end gap-1 mb-2 mb-md-3">
-                                                    <h4 class="fs-three n5-color fw-semibold">14%</h4>
-                                                    <span class="fs-six n4-color fw-medium">up</span>
-                                                </div>
-                                                <p class="fs-eight n4-color">
-                                                    Metric description lorem ipsum dolor sit amet.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-xl-4 col-xxl-3">
-                                            <div class="bgn2-color brn4 p-3 p-md-5">
-                                                <span class="p1-color fs-six fw-medium mb-2 d-block">Sales Generated</span>
-                                                <div class="d-flex align-items-end gap-1 mb-2 mb-md-3">
-                                                    <h4 class="fs-three n5-color fw-semibold">$130K</h4>
-                                                    <!-- <span class="fs-six n4-color fw-medium">k</span> -->
-                                                </div>
-                                                <p class="fs-eight n4-color">
-                                                    Metric description lorem ipsum dolor sit amet.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-xl-4 col-xxl-3">
-                                            <div class="bgn2-color brn4 p-3 p-md-5">
-                                                <span class="p1-color fs-six fw-medium mb-2 d-block">Overall Cost</span>
-                                                <div class="d-flex align-items-end gap-1 mb-2 mb-md-3">
-                                                    <h4 class="fs-three n5-color fw-semibold">20%</h4>
-                                                    <span class="fs-six n4-color fw-medium">down</span>
-                                                </div>
-                                                <p class="fs-eight n4-color">
-                                                    Metric description lorem ipsum dolor sit amet.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p data-aos="fade-up" class="text-seven n4-color mb-8 mb-md-15">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                                    natoque penatibus et magnis dis parturient montes, nascetur
-                                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                                    eu, pretium quis, sem. Nulla consequat massa quis enim.
-                                    Donec pede justo, fringilla vel, aliquet nec, vulputate
-                                    eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-                                    venenatis vitae, justo. Nullam dictum felis eu pede mollis
-                                    pretium. Integer tincidunt. Cras dapibus.
-                                </p>
                             </div>
                         </div>
                     </div>

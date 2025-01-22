@@ -16,7 +16,27 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 
-<body style="display: flex; justify-content: center; align-items: center; width: 100%; min-height: 100vh; margin: 0 auto;">
+<style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 100vh;
+      margin: 0 auto;
+    }
+  
+    @media (max-width: 768px) {
+      body {
+        display: block;
+        justify-content: unset;
+        align-items: unset;
+        min-height: auto;
+      }
+    }
+</style>
+
+<body>
     <div class="d-flex gap-6">
         <div class="side-menu">
             <div class="sidebar-btn close-btn cursor-pointer d-block d-lg-none">
